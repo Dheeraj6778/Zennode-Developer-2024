@@ -1,5 +1,6 @@
 import java.util.*;
 
+
 public class Discount {
     private HashMap<String, Integer> catalogue;
     private Cart cart;
