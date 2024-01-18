@@ -14,7 +14,7 @@ for product in catalogue.keys():
     totalCost = price * quantity
     dic[product] = quantity
     cartTotal += totalCost
-    gift = input("do you need gift wrap\n")
+    gift = input("do you need gift wrap\n").lower()
     if gift == "yes":
         giftWrapCost += quantity
 
